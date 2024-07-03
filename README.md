@@ -4,8 +4,11 @@ sudo apt install sysstat
 
 ### Installation
 cd /usr/local/nagios/libexec/
+
 git clone git@github.com:ForensicID/nrpe-check_cpu.git
+
 cp -R nrpe-check_cpu/check_cpu.sh .
+
 chmod +x check_cpu.sh
 
 ### Example
